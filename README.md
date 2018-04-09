@@ -75,3 +75,11 @@ npm run build
         * [菜单动画](http://yangyi1024.com/tags/%E5%AD%A6%E4%B9%A0%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84Vue/)
         * [列表动画](http://yangyi1024.com/tags/%E5%AD%A6%E4%B9%A0%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84Vue/)
 * [vue.js知识点讲解](http://yangyi1024.com/tags/%E5%AD%A6%E4%B9%A0%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84Vue/)
+
+vue生命周期在真实场景下的业务应用
+
+created：进行ajax请求异步数据的获取、初始化数据
+mounted：挂载元素内dom节点的获取
+nextTick：针对单一事件更新数据后立即操作dom
+updated：任何数据的更新，如果要做统一的业务逻辑处理
+watch：监听具体数据变化，并做相应的处理
